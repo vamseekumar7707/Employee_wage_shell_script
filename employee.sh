@@ -1,2 +1,12 @@
 #!/bin/bash -x
-echo "Welcome to Employee wage"
+ispresent=1
+randomcheck=$((RANDOM%2))
+if [ $randomcheck -eq $ispresent ]
+then
+ echo "Employee is present"
+else
+ echo "absent"
+
+fi
+
+
