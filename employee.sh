@@ -31,4 +31,3 @@ do
 done
         totalSalary=$(($EMP_RATE_PER_HOUR*$totalEmpHours))
         echo "total salary is : $totalSalary"
-
